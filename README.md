@@ -1,7 +1,7 @@
 # Hierarchical Option Critic
 **Work in Progress**
 
-This is a reimplementation of Hierarchical Option Critic, introduced in Learning Abstract Options [(Riemer et al., 2018)] (https://proceedings.neurips.cc/paper/2018/hash/cdf28f8b7d14ab02d12a2329d71e4079-Abstract.html).
+This is a reimplementation of Hierarchical Option Critic, introduced in Learning Abstract Options [(Riemer et al., 2018)](https://proceedings.neurips.cc/paper/2018/hash/cdf28f8b7d14ab02d12a2329d71e4079-Abstract.html).
 
 ## Why Hierarchical Option Critic?
 Hierarchical Option Critic is an end-to-end gradient-based skill hierarchy where the number of levels and number of skills at each level of the hierarchy must be manually specified. The Hierarchical Option Critic is an extension of the line of work that produced the [Option Critic](https://ojs.aaai.org/index.php/AAAI/article/view/10916/10775). Where an agent using Option Critic defines one layer of skills over primitive actions, Hierarchical Option Critic allows the agent to produce an skill hierarchy of any number of levels.
